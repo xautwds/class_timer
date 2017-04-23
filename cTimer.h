@@ -2,10 +2,10 @@
 class cTimer
 {
 public:
-	cTimer(void);     //Ä¬ÈÏ¹¹Ôì
+	cTimer(void);     //æ— å‚æ•°æ„é€ 
 	~cTimer(void);
 
-	cTimer(int hour , int min , int sec);    //´ø²ÎÊı¹¹Ôì
+	cTimer(int hour , int min , int sec);    //å¸¦å‚æ•°æ„é€ 
 
 	cTimer & operator ++() ;
 
